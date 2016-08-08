@@ -1,7 +1,7 @@
 #!/bin/sh
 # eth0 is public , eth1 is LAN with network 192.168.175.0/24
 # Flushing all rules
-$whitelist_ip = "your_ip"
+whitelist_ip="your_ip"
 
 iptables -F
 iptables -X
